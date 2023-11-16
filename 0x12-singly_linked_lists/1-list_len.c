@@ -3,7 +3,7 @@
 
 /**
  * list_len - function returns the numb of elements in a linked list
- * @h: pointer 
+ * @h: pointer
  * Return: number of inputs in h
  */
 size_t list_len(const list_t *h)

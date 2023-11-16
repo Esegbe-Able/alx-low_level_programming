@@ -4,7 +4,7 @@
 
 /**
  * add_node_end - The function adds a new node at the end of a linked list
- * @head: double pointer 
+ * @head: double pointer
  * @str: new string to be added
  * Return: new_list, or NULL if it failed
  */
@@ -18,6 +18,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		length++;
 
 	new_list = malloc(sizeof(list_t));
+
 	if (!new_list)
 		return (NULL);
 
