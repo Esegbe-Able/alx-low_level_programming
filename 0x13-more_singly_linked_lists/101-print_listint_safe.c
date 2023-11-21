@@ -5,7 +5,8 @@ size_t looped_listint_len(const listint_t *head);
 size_t print_listint_safe(const listint_t *head);
 
 /**
- * looped_listint_len - This function's job is to count the number of unique nodes
+ * looped_listint_len - This function's job is to
+ * count the number of unique nodes
  * in a looped listint_t linked list.
  * @head: A pointer
  *
@@ -39,7 +40,7 @@ size_t looped_listint_len(const listint_t *head)
 			while (tort != hare)
 			{
 				Num_nodes++;
-				tort = tort ->next;
+				tort = tort->next;
 			}
 
 			return (Num_nodes);
